@@ -1,0 +1,24 @@
+@font-face {
+	font-family: "NorseBold";
+	src: url(../assets/fonts/NorseBold/Norse-Bold.otf);
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url(../assets/fonts/Roboto/Roboto.woff2) format("woff2-variations");
+	src: url(../assets/fonts/Roboto/Roboto.woff2) format("woff2")
+		tech("variations");
+	font-weight: 400;
+}
+
+body {
+	font-family: "Roboto";
+}
+
+.bg-image {
+	background-image: url(../assets/images/halie-west-25xggax4bSA-unsplash.jpg);
+}
+
+.logo-title {
+	font-family: "NorseBold";
+}
