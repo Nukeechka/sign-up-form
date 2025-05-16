@@ -13,12 +13,93 @@
 
 body {
 	font-family: "Roboto";
+	margin: 0;
+}
+
+.wrapper {
+	display: flex;
+	min-height: 100vh;
 }
 
 .bg-image {
 	background-image: url(../assets/images/halie-west-25xggax4bSA-unsplash.jpg);
+	background-repeat: no-repeat;
+	/* background-position: center; */
+	background-size: 100% 100%;
+}
+
+.left {
+	flex: 0 1 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.img-container {
+	background: rgba(0, 0, 0, 0.5);
+	margin-top: 100px;
+}
+
+.odin-logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+.img-container img {
+	width: 120px;
+}
+
+.logo-title {
+	color: white;
+	font-size: 100px;
+}
+
+.shoutout {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.shoutout,
+a {
+	color: #ddd;
+}
+
+.content {
+	margin-top: 50px;
+}
+
+.right {
+	flex: 0 1 70%;
+	padding: 40px;
+}
+
+.content h2 {
+	font-size: 20px;
+	font-weight: bold;
+	max-width: 55%;
+	line-height: 120%;
+}
+
+h2 span {
+	font-style: italic;
 }
 
 .logo-title {
 	font-family: "NorseBold";
+}
+
+.content h3 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 24px;
+}
+
+h3 span {
+	font-style: italic;
+}
+
+.form-title {
+	color: #333;
 }
